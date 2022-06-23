@@ -26,11 +26,12 @@
         body {
             margin: auto;
             width: 80%;
+            position: relative;
         }
     </style>
 
     <!--MENU DE NAVEGAÇÃO DO SITE-->
-    <nav class="navbar navbar-expand-lg fixed-top fw-bold align-items-center" style="background-color: #e1f1f4;">
+    <nav class="navbar navbar-expand-lg fixed-top fw-bold align-items-center" style="background-color: #c8d5f8;">
 
         <!--ÍCONE DA ESCOLA COM LINK DE REDIRECIONAMENTO PARA O INÍCIO-->
         <div class="container-fluid align-items-center">
@@ -100,6 +101,13 @@
 
     <br>
     <br>
+    <br>
+
+    <div>
+        <h1 class="card-title fs-1 fw-bold text-center mb-3">O sucesso do seu fururo é a nossa missão!</h1>
+    </div>
+
+    <hr>
 
     <!--CARROSSEL DE IMAGENS DO TOPO-->
     <div id="carouselExampleInterval" class="carousel slide w-100 p-12 col-md-6" data-bs-ride="carousel">
@@ -138,7 +146,7 @@
         <h1 class="card-title fs-1 fw-bold text-center mb-3">Institucional</h1>
     </div>
 
-    <div class="card-group w-75 p-3 text-center">
+    <div class="card-group w-100 p-3 text-center" style="position: relative; margin: auto;">
 
         <!--CARD-->
         <div class="card text-center w-100 p-1 card border-primary mb-3">
@@ -207,7 +215,7 @@
         <h1 class="card-title fs-1 fw-bold text-center mb-3">Por quê estudar na Logos?</h1>
     </div>
 
-    <div class="card-group w-75 p-3">
+    <div class="card-group w-100 p-3" style="position: relative; margin: auto;">
 
         <!--CARD-->
         <div class="card text-center w-100 p-1 card border-primary mb-3">
@@ -216,7 +224,7 @@
                     <path d="M1 2.828c.885-.37 2.154-.769 3.388-.893 1.33-.134 2.458.063 3.112.752v9.746c-.935-.53-2.12-.603-3.213-.493-1.18.12-2.37.461-3.287.811V2.828zm7.5-.141c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492V2.687zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783z"
                     />
                 </svg>
-                <h5 class="card-title">Aulas</h5>
+                <h5 class="card-title">Material didático de qualidade</h5>
             </div>
             <div class="card-body">
 
@@ -234,7 +242,7 @@
                     <path d="M2 11h1v1H2v-1zm2 0h1v1H4v-1zm-2 2h1v1H2v-1zm2 0h1v1H4v-1zm4-4h1v1H8V9zm2 0h1v1h-1V9zm-2 2h1v1H8v-1zm2 0h1v1h-1v-1zm2-2h1v1h-1V9zm0 2h1v1h-1v-1zM8 7h1v1H8V7zm2 0h1v1h-1V7zm2 0h1v1h-1V7zM8 5h1v1H8V5zm2 0h1v1h-1V5zm2 0h1v1h-1V5zm0-2h1v1h-1V3z"
                     />
                 </svg>
-                <h5 class="card-title">Instalações</h5>
+                <h5 class="card-title">Instalações de primeira</h5>
             </div>
             <div class="card-body">
 
@@ -251,7 +259,7 @@
                     <path d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466 4.176 9.032Z"
                     />
                 </svg>
-                <h5 class="card-title">Corpo docente</h5>
+                <h5 class="card-title">Corpo docente renomado</h5>
             </div>
             <div class="card-body">
 
@@ -269,7 +277,8 @@
         <h1 class="card-title fs-1 fw-bold text-center mb-3">Conheça nosso catálogo de cursos</h1>
     </div>
 
-    <div class="card-group w-100 p-3">
+    <!--PRIMEIRA FILEIRA DE OPÇÕES DE CURSOS-->
+    <div class="card-group w-100 p-3" style="position: relative; margin: auto;">
 
         <!--CARD-->
         <div class="card" style="width: 18rem;">
@@ -317,7 +326,8 @@
         </div>
     </div>
 
-    <div class="card-group w-100 p-3">
+    <!--SEGUNDA FILEIRA DE OPÇÕES DE CURSOS-->
+    <div class="card-group w-100 p-3" style="position: relative; margin: auto;">
         <!--CARD-->
         <div class="card" style="width: 18rem;">
             <img src="imagens/administracao.jpg" class="card-img" alt="...">
@@ -370,56 +380,82 @@
     <!--SEÇÃO DE ACORDEÃO - EVENTOS DA INSTITUIÇÃO-->
     <!--TÍTULO-->
     <div>
-        <h1 class="card-title fs-1 fw-bold text-center mb-3">Eventos</h1>
+        <h1 class="card-title fs-1 fw-bold text-center mb-3">Nossos Eventos</h1>
     </div>
 
     <!--OPÇÃO-->
-    <div class="accordion accordion-flush w-100 p-3" id="accordionFlushExample">
+    <div class="accordion accordion-flush w-100 p-3" id="accordionFlushExample" style="position: relative; margin: auto;">
         <div class="accordion-item">
-            <h2 class="accordion-header" id="flush-headingOne">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                <b>Semana da Indústria - 20/06/2022 à 25/06/2022</b>
+            <h2 class="accordion-header" id="flush-heading1">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse1" aria-expanded="false" aria-controls="flush-collapseOne">
+                <b>Semana da Comunicação - 20/06/2022 à 25/06/2022</b>
                 </button>
             </h2>
-            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+            <div id="flush-collapse1" class="accordion-collapse collapse" aria-labelledby="flush-heading1" data-bs-parent="#accordionFlushExample">
                 <div class="accordion-body">
-                    Ut luctus, enim eget suscipit placerat, eros est mollis turpis, vitae eleifend dui massa nec quam. Sed a metus arcu. Quisque sed metus magna. Etiam vitae purus nec lacus facilisis scelerisque. Quisque sodales hendrerit velit, non blandit justo suscipit
-                    pretium. Vivamus placerat nec mi quis varius. Sed id odio neque. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aliquam commodo vitae nibh ut maximus. Phasellus rutrum ante non leo faucibus
-                    euismod. Etiam molestie nibh velit, in volutpat massa bibendum nec.
+                    <div class="d-flex position-relative">
+                        <img src="imagens/telecomunicacoes.jpeg" class="flex-shrink-0 me-3" style="width: 300px; margin: auto;" alt="...">
+                        <div>
+                            <h5 class="mt-0">Semana da Comunicação - 27/06/2022 à 02/06/2022</h5>
+                            <p> Aliquam vitae enim et diam consectetur varius. Nulla lacus odio, iaculis a metus et, maximus vehicula arcu. Cras malesuada vulputate egestas. Donec bibendum lorem condimentum pulvinar egestas. Aenean dapibus, dolor eu ultrices
+                                sagittis, lacus lorem malesuada leo, ut varius nulla est quis libero. Donec ultricies convallis pulvinar. Aliquam id felis convallis, semper libero in, convallis odio. Integer a iaculis erat. Integer mattis fermentum lorem
+                                ut malesuada. Proin lobortis tempus semper. Morbi imperdiet turpis ut arcu euismod scelerisque.</p>
+                            <a href="#" class="stretched-link">Saiba mais</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
 
         <!--OPÇÃO-->
+
         <div class="accordion-item">
-            <h2 class="accordion-header" id="flush-headingTwo">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+            <h2 class="accordion-header" id="flush-heading2">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse2" aria-expanded="false" aria-controls="flush-collapseTwo">
                     <b>Semana da Tecnologia - 27/06/2022 à 02/06/2022</b>
                 </button>
             </h2>
-            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+            <div id="flush-collapse2" class="accordion-collapse collapse" aria-labelledby="flush-heading2" data-bs-parent="#accordionFlushExample">
                 <div class="accordion-body">
-                    Aliquam vitae enim et diam consectetur varius. Nulla lacus odio, iaculis a metus et, maximus vehicula arcu. Cras malesuada vulputate egestas. Donec bibendum lorem condimentum pulvinar egestas. Aenean dapibus, dolor eu ultrices sagittis, lacus lorem malesuada
-                    leo, ut varius nulla est quis libero. Donec ultricies convallis pulvinar. Aliquam id felis convallis, semper libero in, convallis odio. Integer a iaculis erat. Integer mattis fermentum lorem ut malesuada. Proin lobortis tempus semper.
-                    Morbi imperdiet turpis ut arcu euismod scelerisque.
+                    <div class="d-flex position-relative">
+                        <img src="imagens/manutencao1.png" class="flex-shrink-0 me-3" style="width: 300px; margin: auto;" alt="...">
+                        <div>
+                            <h5 class="mt-0">Semana da Tecnologia - 27/06/2022 à 02/06/2022</h5>
+                            <p> Aliquam vitae enim et diam consectetur varius. Nulla lacus odio, iaculis a metus et, maximus vehicula arcu. Cras malesuada vulputate egestas. Donec bibendum lorem condimentum pulvinar egestas. Aenean dapibus, dolor eu ultrices
+                                sagittis, lacus lorem malesuada leo, ut varius nulla est quis libero. Donec ultricies convallis pulvinar. Aliquam id felis convallis, semper libero in, convallis odio. Integer a iaculis erat. Integer mattis fermentum lorem
+                                ut malesuada. Proin lobortis tempus semper. Morbi imperdiet turpis ut arcu euismod scelerisque.</p>
+                            <a href="#" class="stretched-link">Saiba mais</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
 
         <!--OPÇÃO-->
         <div class="accordion-item">
-            <h2 class="accordion-header" id="flush-headingThree">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+            <h2 class="accordion-header" id="flush-heading3">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse3" aria-expanded="false" aria-controls="flush-collapseThree">
                     <b>Semana da Automação Industrial - 04/07/2022 à 09/07/2022</b>
                 </button>
             </h2>
-            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+            <div id="flush-collapse3" class="accordion-collapse collapse" aria-labelledby="flush-heading3" data-bs-parent="#accordionFlushExample">
                 <div class="accordion-body">
-                    Nullam ac nibh magna. Praesent elementum diam eu elit pulvinar, auctor consequat ante vestibulum. Maecenas id purus ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Mauris semper nibh ac fermentum egestas.
-                    Vivamus quam diam, scelerisque id sagittis sed, molestie vel nibh. Aliquam feugiat suscipit finibus. Praesent nec quam eu dolor luctus pharetra eu eu magna. Integer eleifend est sed velit euismod, id mollis libero porta. Etiam ut massa
-                    bibendum, pharetra lorem ultricies, interdum orci. Integer eu justo in justo convallis viverra. Donec quis convallis massa. Donec lacus ligula, sagittis sit amet lacus a, condimentum iaculis arcu. Morbi bibendum nisl tincidunt, laoreet
-                    risus at, commodo ipsum. Integer efficitur ante metus.
+                    <div class="d-flex position-relative">
+                        <img src="imagens/automacao-industrial.webp" class="flex-shrink-0 me-3 " style="width: 300px; margin: auto;" alt="...">
+                        <div>
+                            <h5 class="mt-0">Semana da Automação Industrial - 04/07/2022 à 09/07/2022</h5>
+                            <p> Nullam ac nibh magna. Praesent elementum diam eu elit pulvinar, auctor consequat ante vestibulum. Maecenas id purus ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Mauris semper
+                                nibh ac fermentum egestas. Vivamus quam diam, scelerisque id sagittis sed, molestie vel nibh. Aliquam feugiat suscipit finibus. Praesent nec quam eu dolor luctus pharetra eu eu magna. Integer eleifend est sed velit euismod,
+                                id mollis libero porta. Etiam ut massa bibendum, pharetra lorem ultricies, interdum orci. Integer eu justo in justo convallis viverra. Donec quis convallis massa. Donec lacus ligula, sagittis sit amet lacus a, condimentum
+                                iaculis arcu. Morbi bibendum nisl tincidunt, laoreet risus at, commodo ipsum. Integer efficitur ante metus.</p>
+                            <a href="#" class="stretched-link">Saiba mais</a>
+                        </div>
+                    </div>
                 </div>
+
+
+
+
             </div>
         </div>
 
@@ -430,11 +466,11 @@
     <!--SEÇÃO DE ACORDEÃO - DÚVIDAS FREQUENTES-->
     <!--TÍTULO-->
     <div>
-        <h1 class="card-title fs-1 fw-bold text-center mb-3">O que você precisa saber</h1>
+        <h1 class="card-title fs-1 fw-bold text-center mb-3">O que você precisa saber para ser nosso aluno</h1>
     </div>
 
     <!--OPÇÃO-->
-    <div class="accordion accordion-flush w-100 p-3" id="accordionFlushExample">
+    <div class="accordion accordion-flush w-100 p-3" id="accordionFlushExample" style="position: relative; margin: auto;">
         <div class="accordion-item">
             <h2 class="accordion-header" id="flush-headingOne">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
@@ -482,9 +518,7 @@
                 </div>
             </div>
         </div>
-    </div>
 
-    <div class="accordion accordion-flush w-100 p-3" id="accordionFlushExample">
         <!--OPÇÃO-->
         <div class="accordion-item">
             <h2 class="accordion-header" id="flush-headingFour">
@@ -579,10 +613,13 @@
         <h1 class="card-title fs-1 fw-bold text-center mb-3">Ainda tem dúvidas sobre como ingressar na Logos?</h1>
     </div>
 
-    <h5 class="text-center">Clique no botão abaixo e no formulário a seguir preencha seus dados e registre a sua dúvida pois o atenderemos com muito prazer!</h5>
+    <h5 class="text-center" style="position: relative; margin: auto;">Clique no botão abaixo e registre a sua dúvida para que possamos sanar todas as dúvidas pendentes!</h5>
+    <br>
+    <div class="d-grid gap-2 col-6 mx-auto">
+        <button class="btn btn-outline-primary btn-lg" type="button">Quero entrar em contato!</button>
+    </div>
 
 
-    <button type="button" class="btn btn-outline-primary btn-lg col-md-6">Tirar minha dúvida</button>
 
     <hr>
 
@@ -592,11 +629,11 @@
         <h1 class="card-title fs-1 fw-bold text-center mb-3">Junte-se à nós! Seja um aluno Logos!</h1>
     </div>
 
-    <h5 class="text-center">Clique no botão abaixo e no formulário a seguir preencha seus dados e garanta um futuro profissional mais qualificado!</h5>
-
-
-    <button type="button" class="btn btn-success btn-lg col-md-6">Quero ser aluno</button>
-
+    <h5 class="text-center">Clique no botão abaixo e garanta um futuro profissional mais qualificado!</h5>
+    <br>
+    <div class="d-grid gap-2 col-6 mx-auto">
+        <button class="btn btn-success btn-lg" type="button">Quero ser aluno!</button>
+    </div>
 
 
 
@@ -606,10 +643,20 @@
 
     <footer>
 
+        <table class="table text-center table-light table-striped text-dark w-100">
+            <tr>
+                <td>
+                    <img src="imagens/logos-informatica-logo.png" alt="" width="140" height="50">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Rua Dias da Cruz, 000, Méier, Rio de Janeiro - RJ CEP 00000-000</p>
+                </td>
+            </tr>
+        </table>
 
-
-
-        <table class="table text-center table-primary table-striped text-dark w-100">
+        <table class="table text-center table-dark table-striped text-dark w-100">
             <tbody>
                 <tr>
                     <td>
